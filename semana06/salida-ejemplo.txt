@@ -1,0 +1,24 @@
+=== Sistema ===
+Linux UBUNTU 7.0.0-34-generic #34-Ubuntu SMP PREEMPT_DYNAMIC Wed Sep  2 14:29:37 UTC 2026 x86_64 GNU/Linux
+PRETTY_NAME="Ubuntu 26.04.1 LTS"
+NAME="Ubuntu"
+VERSION_ID="26.04"
+VERSION="26.04.1 LTS (Resolute Raccoon)"
+VERSION_CODENAME=resolute
+up 2 hours, 32 minutes
+               total        used        free      shared  buff/cache   available
+Mem:           3.3Gi       2.5Gi       177Mi        50Mi       697Mi       791Mi
+=== Usuario ===
+vboxuser
+uid=1000(vboxuser) gid=1000(vboxuser) groups=1000(vboxuser),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),100(users),111(lpadmin),114(lxd)
+vboxuser adm cdrom sudo dip plugdev users lpadmin lxd
+=== Disco ===
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           680M  2.7M  677M   1% /run
+/dev/sda2        25G  7.2G   17G  31% /
+tmpfs           1.7G  4.0K  1.7G   1% /dev/shm
+none            1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+tmpfs           1.7G  8.0K  1.7G   1% /tmp
+none            1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
+tmpfs           340M  4.1M  336M   2% /run/user/1000
+12K	.
