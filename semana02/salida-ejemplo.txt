@@ -49,7 +49,26 @@ drwxr-x--- 16 vboxuser vboxuser 4096 Nov 24 07:34 vboxuser
 
 === /bin ===
 /bin contiene programas esenciales disponibles para todo usuario.
-lrwxrwxrwx 1 root root 7 Apr 20  2026 /bin -> usr/bin
+total 284904
+-rwxr-xr-x   1 root root      709512 Feb  5  2026 3cpio
+lrwxrwxrwx   1 root root          11 May 22  2026 GET -> lwp-request
+lrwxrwxrwx   1 root root          11 May 22  2026 HEAD -> lwp-request
+lrwxrwxrwx   1 root root          11 May 22  2026 POST -> lwp-request
+lrwxrwxrwx   1 root root           1 Feb 27  2026 X11 -> .
+-rwxr-xr-x   1 root root     2410256 Apr 14  2026 Xwayland
+lrwxrwxrwx   1 root root          28 Mar 30  2026 [ -> ../lib/cargo/bin/coreutils/[
+-rwxr-xr-x   1 root root       14720 Jul 13 17:43 aa-enabled
+-rwxr-xr-x   1 root root       14720 Jul 13 17:43 aa-exec
+-rwxr-xr-x   1 root root       14720 Jul 13 17:43 aa-features-abi
+-rwxr-xr-x   1 root root       22992 Feb 18  2026 aconnect
+-rwxr-xr-x   1 root root        1622 Sep  2 09:35 acpidbg
+-rwxr-xr-x   1 root root       25004 Apr 24  2026 add-apt-repository
+lrwxrwxrwx   1 root root          26 Mar 15  2026 addr2line -> x86_64-linux-gnu-addr2line
+-rwxr-xr-x   1 root root      158624 Mar  3  2026 airscan-discover
+-rwxr-xr-x   1 root root       51728 Feb 18  2026 alsabat
+-rwxr-xr-x   1 root root       84432 Feb 18  2026 alsaloop
+-rwxr-xr-x   1 root root       90488 Feb 18  2026 alsamixer
+-rwxr-xr-x   1 root root       84432 Feb 18  2026 alsatplg
 --------------------------------------------------
 
 === /tmp ===

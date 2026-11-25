@@ -27,7 +27,7 @@ echo ""
 
 echo "=== /bin ==="
 echo "/bin contiene programas esenciales disponibles para todo usuario."
-ls -l /bin | head -n 20
+ls -l /bin/ | head -n 20
 echo "$SEP"
 echo ""
 
