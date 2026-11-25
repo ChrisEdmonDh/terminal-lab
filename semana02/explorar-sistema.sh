@@ -1,7 +1,7 @@
 #!/bin/bash
 # explorar-sistema.sh - Recorre la jerarquia del sistema y la documenta
 # Autor: Cristian Choque Characayo
-# Fecha: 2026-08-23
+# Fecha: 2026-02-15
 # Uso: ./explorar-sistema.sh
 # Descripcion: recorre /etc, /var, /home, /bin, /tmp y /proc y documenta su funcion
 
@@ -24,3 +24,23 @@ echo "/home contiene un subdirectorio por usuario con sus archivos personales."
 ls -l /home
 echo "$SEP"
 echo ""
+
+echo "=== /bin ==="
+echo "/bin contiene programas esenciales disponibles para todo usuario."
+ls -l /bin | head -n 20
+echo "$SEP"
+echo ""
+
+echo "=== /tmp ==="
+echo "/tmp contiene archivos temporales que se vacian al reiniciar."
+ls -lh /tmp | head -n 20
+echo "$SEP"
+echo ""
+
+echo "=== /proc ==="
+echo "/proc es un sistema virtual: el kernel genera su contenido al leerlo."
+ls -l /proc | head -n 20
+echo "$SEP"
+echo ""
+
+echo "Exploracion completada."
