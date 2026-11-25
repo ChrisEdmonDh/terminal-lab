@@ -1,0 +1,95 @@
+=== /etc ===
+/etc guarda archivos de configuracion del sistema en texto plano.
+total 1140
+drwxr-xr-x  5 root                 root                  4096 Aug 26 05:30 ModemManager
+drwxr-xr-x  8 root                 root                  4096 Sep 24 04:01 NetworkManager
+drwxr-xr-x  2 root                 root                  4096 Aug 26 05:33 PackageKit
+drwxr-xr-x  3 root                 root                  4096 Aug 26 05:31 UPower
+drwxr-xr-x 11 root                 root                  4096 Aug 26 05:33 X11
+-rw-r--r--  1 root                 root                  4027 Nov  4  2025 adduser.conf
+drwxr-xr-x  3 root                 root                  4096 Aug 26 05:29 alsa
+drwxr-xr-x  2 root                 root                  4096 Sep 24 04:01 alternatives
+-rw-r--r--  1 root                 root                   394 Oct 31  2025 anacrontab
+drwxr-xr-x  5 root                 root                  4096 Aug 26 05:29 apm
+drwxr-xr-x  2 root                 root                  4096 Aug 26 05:29 apparmor
+drwxr-xr-x  9 root                 root                  4096 Sep 24 04:01 apparmor.d
+drwxr-xr-x  3 root                 root                  4096 Aug 26 05:31 apport
+drwxr-xr-x  9 root                 root                  4096 Sep 24 03:46 apt
+drwxr-xr-x  3 root                 root                  4096 Aug 26 05:31 avahi
+-rw-r--r--  1 root                 root                  2553 Feb 13  2026 bash.bashrc
+-rw-r--r--  1 root                 root                    45 Sep 28  2025 bash_completion
+drwxr-xr-x  2 root                 root                  4096 Nov 24 05:57 bash_completion.d
+-rw-r--r--  1 root                 root                   367 Mar 10  2026 bindresvport.blacklist
+--------------------------------------------------
+
+=== /var ===
+/var guarda datos que cambian: registros, colas y caches.
+total 48K
+drwxr-xr-x  2 root root     4.0K Nov 25 03:51 backups
+drwxr-xr-x 21 root root     4.0K Oct 27 01:09 cache
+drwxrwsrwt  2 root whoopsie 4.0K Nov 25 03:51 crash
+drwxr-xr-x 72 root root     4.0K Nov 24 05:57 lib
+drwxr-xr-x  2 root root     4.0K Apr 20  2026 local
+lrwxrwxrwx  1 root root        9 Aug 26 05:27 lock -> /run/lock
+drwxrwxr-x 17 root syslog   4.0K Nov 25 03:51 log
+drwxrwsr-x  2 root mail     4.0K Aug 26 05:27 mail
+drwxrwsrwt  2 root whoopsie 4.0K Aug 26 05:31 metrics
+drwxr-xr-x  2 root root     4.0K Aug 26 05:27 opt
+lrwxrwxrwx  1 root root        4 Aug 26 05:27 run -> /run
+drwxr-xr-x 15 root root     4.0K Aug 26 05:35 snap
+drwxr-xr-x  6 root root     4.0K Aug 26 05:29 spool
+drwxrwxrwt 12 root root     4.0K Nov 25 04:04 tmp
+--------------------------------------------------
+
+=== /home ===
+/home contiene un subdirectorio por usuario con sus archivos personales.
+total 4
+drwxr-x--- 16 vboxuser vboxuser 4096 Nov 24 07:34 vboxuser
+--------------------------------------------------
+
+=== /bin ===
+/bin contiene programas esenciales disponibles para todo usuario.
+lrwxrwxrwx 1 root root 7 Apr 20  2026 /bin -> usr/bin
+--------------------------------------------------
+
+=== /tmp ===
+/tmp contiene archivos temporales que se vacian al reiniciar.
+total 0
+drwx------ 5 root root 100 Nov 25 03:54 snap-private-tmp
+drwx------ 3 root root  60 Nov 25 03:51 systemd-private-a5c8b9b97a1c40a29903e1615c43de62-ModemManager.service-YBYmvM
+drwx------ 3 root root  60 Nov 25 03:51 systemd-private-a5c8b9b97a1c40a29903e1615c43de62-chrony.service-9TTG32
+drwx------ 3 root root  60 Nov 25 03:52 systemd-private-a5c8b9b97a1c40a29903e1615c43de62-colord.service-3PXQ6c
+drwx------ 3 root root  60 Nov 25 03:55 systemd-private-a5c8b9b97a1c40a29903e1615c43de62-fwupd.service-4qdAqv
+drwx------ 3 root root  60 Nov 25 03:53 systemd-private-a5c8b9b97a1c40a29903e1615c43de62-geoclue.service-NOZzdt
+drwx------ 3 root root  60 Nov 25 03:51 systemd-private-a5c8b9b97a1c40a29903e1615c43de62-polkit.service-Ock95M
+drwx------ 3 root root  60 Nov 25 03:51 systemd-private-a5c8b9b97a1c40a29903e1615c43de62-power-profiles-daemon.service-TYpaAB
+drwx------ 3 root root  60 Nov 25 03:51 systemd-private-a5c8b9b97a1c40a29903e1615c43de62-switcheroo-control.service-cjFOsm
+drwx------ 3 root root  60 Nov 25 03:51 systemd-private-a5c8b9b97a1c40a29903e1615c43de62-systemd-logind.service-oMMxY1
+drwx------ 3 root root  60 Nov 25 03:52 systemd-private-a5c8b9b97a1c40a29903e1615c43de62-upower.service-9LIt0F
+--------------------------------------------------
+
+=== /proc ===
+/proc es un sistema virtual: el kernel genera su contenido al leerlo.
+total 0
+dr-xr-xr-x  9 root            root                          0 Nov 25 03:51 1
+dr-xr-xr-x  9 root            root                          0 Nov 25 03:51 10
+dr-xr-xr-x  9 avahi           avahi                         0 Nov 25 03:51 1020
+dr-xr-xr-x  9 _chrony         _chrony                       0 Nov 25 03:51 1064
+dr-xr-xr-x  9 root            root                          0 Nov 25 03:51 1080
+dr-xr-xr-x  9 root            netdev                        0 Nov 25 03:51 1087
+dr-xr-xr-x  9 root            root                          0 Nov 25 03:51 11
+dr-xr-xr-x  9 _chrony         _chrony                       0 Nov 25 03:51 1105
+dr-xr-xr-x  9 root            root                          0 Nov 25 03:51 1167
+dr-xr-xr-x  9 root            root                          0 Nov 25 03:51 1278
+dr-xr-xr-x  9 root            root                          0 Nov 25 03:51 1287
+dr-xr-xr-x  9 root            root                          0 Nov 25 03:51 13
+dr-xr-xr-x  9 cups-browsed    lpadmin                       0 Nov 25 03:51 1333
+dr-xr-xr-x  9 root            root                          0 Nov 25 03:51 1336
+dr-xr-xr-x  9 root            root                          0 Nov 25 03:51 1353
+dr-xr-xr-x  9 root            root                          0 Nov 25 03:51 14
+dr-xr-xr-x  9 root            root                          0 Nov 25 03:53 1428
+dr-xr-xr-x  9 root            root                          0 Nov 25 03:51 15
+dr-xr-xr-x  9 root            root                          0 Nov 25 03:51 16
+--------------------------------------------------
+
+Exploracion completada.
