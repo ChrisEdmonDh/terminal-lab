@@ -1,0 +1,137 @@
+Exploracion del sistema - PowerShell
+
+=== /etc ===
+/etc guarda la configuracion del sistema en texto plano.
+
+Name              Length LastWriteTime
+----              ------ -------------
+alsa                     8/26/2026 5:29:44 AM
+alternatives             9/24/2026 4:01:40 AM
+apm                      8/26/2026 5:29:19 AM
+apparmor                 8/26/2026 5:29:00 AM
+apparmor.d               9/24/2026 4:01:49 AM
+apport                   8/26/2026 5:31:42 AM
+apt                      9/24/2026 3:46:53 AM
+avahi                    8/26/2026 5:31:16 AM
+bash_completion.d        11/24/2026 5:57:49 AM
+binfmt.d                 4/15/2026 6:32:53 PM
+
+
+--------------------------------------------------
+
+=== /var ===
+/var guarda datos que cambian: registros, colas y caches.
+
+Name    Length LastWriteTime
+----    ------ -------------
+backups        11/25/2026 6:54:23 AM
+cache          10/27/2026 1:09:33 AM
+crash          11/25/2026 3:51:47 AM
+lib            11/24/2026 5:57:47 AM
+local          4/20/2026 8:46:31 AM
+lock           8/26/2026 5:27:19 AM
+log            11/26/2026 4:48:19 AM
+mail           8/26/2026 5:27:19 AM
+metrics        8/26/2026 5:31:11 AM
+opt            8/26/2026 5:27:19 AM
+
+
+--------------------------------------------------
+
+=== /home ===
+/home contiene un subdirectorio por usuario.
+
+Name     Length LastWriteTime
+----     ------ -------------
+vboxuser        11/26/2026 5:26:14 AM
+
+
+--------------------------------------------------
+
+=== /bin/ ===
+/bin contiene los programas esenciales del sistema.
+
+Name               Length LastWriteTime
+----               ------ -------------
+X11                       2/27/2026 6:18:59 PM
+[                  28     3/30/2026 4:50:24 PM
+3cpio              709512 2/5/2026 9:55:13 AM
+aa-enabled         14720  7/13/2026 5:43:46 PM
+aa-exec            14720  7/13/2026 5:43:46 PM
+aa-features-abi    14720  7/13/2026 5:43:46 PM
+aconnect           22992  2/18/2026 5:40:51 AM
+acpidbg            1622   9/2/2026 9:35:43 AM
+add-apt-repository 25004  4/24/2026 10:20:18 AM
+addr2line          26     3/15/2026 1:33:01 AM
+
+
+--------------------------------------------------
+
+=== /tmp ===
+/tmp contiene archivos temporales que se borran al reiniciar.
+
+Name
+----                                                                            
+snap-private-tmp                                                                
+systemd-private-2351b5cd819640f08d4fd4c09989c1af-chrony.service-hTbkMO          
+systemd-private-2351b5cd819640f08d4fd4c09989c1af-colord.service-V0DWWL          
+systemd-private-2351b5cd819640f08d4fd4c09989c1af-fwupd.service-M7xpO2           
+systemd-private-2351b5cd819640f08d4fd4c09989c1af-geoclue.service-bqNRnT         
+systemd-private-2351b5cd819640f08d4fd4c09989c1af-ModemManager.service-HQt67l    
+systemd-private-2351b5cd819640f08d4fd4c09989c1af-polkit.service-QRqNPX          
+systemd-private-2351b5cd819640f08d4fd4c09989c1af-power-profiles-daemon.service-…
+systemd-private-2351b5cd819640f08d4fd4c09989c1af-switcheroo-control.service-D0H…
+systemd-private-2351b5cd819640f08d4fd4c09989c1af-systemd-logind.service-63kt8a  
+
+
+--------------------------------------------------
+
+=== /proc ===
+/proc es virtual: el kernel genera su contenido al leerlo.
+
+Name Length LastWriteTime
+---- ------ -------------
+1           11/26/2026 4:47:52 AM
+1002        11/26/2026 4:48:19 AM
+1058        11/26/2026 4:48:15 AM
+1075        11/26/2026 4:48:19 AM
+1088        11/26/2026 4:48:16 AM
+1091        11/26/2026 4:48:16 AM
+1134        11/26/2026 4:48:16 AM
+1167        11/26/2026 4:48:19 AM
+1231        11/26/2026 4:48:18 AM
+1243        11/26/2026 4:48:18 AM
+
+
+--------------------------------------------------
+
+=== Descubrimiento ===
+Cmdlets con el sustantivo Item:
+
+Name        Source
+----        ------
+Clear-Item  Microsoft.PowerShell.Management
+Copy-Item   Microsoft.PowerShell.Management
+Get-Item    Microsoft.PowerShell.Management
+Invoke-Item Microsoft.PowerShell.Management
+Move-Item   Microsoft.PowerShell.Management
+New-Item    Microsoft.PowerShell.Management
+Remove-Item Microsoft.PowerShell.Management
+Rename-Item Microsoft.PowerShell.Management
+Set-Item    Microsoft.PowerShell.Management
+
+
+Sintesis de la ayuda de Get-ChildItem:
+
+Name     : Get-ChildItem
+Synopsis : 
+           Get-ChildItem [[-Path] <string[]>] [[-Filter] <string>] [-Include <string[]>] [-Exclude <string[]>] [-Recurse] [-Depth <uint>] [-Force] [-Name] [-Attributes <FlagsExpression[FileAttributes]>] [-FollowSymlink] [-Directory] [-File] [-Hidden] [-ReadOnly] [-System] [<CommonParameters>]
+           
+           Get-ChildItem [[-Filter] <string>] -LiteralPath <string[]> [-Include <string[]>] [-Exclude <string[]>] [-Recurse] [-Depth <uint>] [-Force] [-Name] [-Attributes <FlagsExpression[FileAttributes]>] [-FollowSymlink] [-Directory] [-File] [-Hidden] [-ReadOnly] [-System] [<CommonParameters>]
+           
+
+
+Cantidad de elementos en /etc:
+234
+
+Exploracion completada.
