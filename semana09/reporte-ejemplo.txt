@@ -1,0 +1,44 @@
+=== Monitor de procesos ===
+Usuario: vboxuser
+Fecha: Thu Nov 26 05:07:18 AM UTC 2026
+
+=== Procesos del usuario ordenados por %CPU ===
+    PID STAT %CPU %MEM COMMAND
+   5712 R+    100  0.1 ps
+   2817 Ssl  27.0  8.1 gnome-shell
+   3875 Sl   23.2 14.8 firefox
+   4584 Sl   18.5 16.6 Isolated Web Co
+   5079 Sl    6.3  9.4 ptyxis
+   4168 Sl    1.4  4.8 Privileged Cont
+   3115 Sl    0.6  0.7 ibus-extension-
+   4557 Sl    0.5  3.1 Isolated Web Co
+   4025 Z     0.5  0.0 glxtest
+   2966 Ssl   0.4  0.3 ibus-daemon
+   4587 Sl    0.3  2.0 Web Content
+   2519 Ss    0.2  0.1 dbus-daemon
+   3745 Sl    0.2  1.3 gjs
+   4386 Sl    0.2  2.8 WebExtensions
+   2485 Ss    0.2  0.4 systemd
+   4089 Sl    0.1  1.6 mutter-x11-fram
+   4176 Sl    0.1  1.2 RDD Process
+   3166 SNsl  0.1  0.6 localsearch-3
+   3304 Sl    0.1  0.2 ibus-engine-sim
+
+=== Proceso de mayor consumo ===
+   5714 ps               300
+
+=== Conteo por estado ===
+      1 R
+     96 S
+      1 Z
+
+=== Proceso de prueba ===
+Proceso de prueba lanzado con PID=5723
+    PID STAT CMD
+   5723 S+   sleep 60
+[1]+  5723 Running                    sleep 60 &
+
+=== Terminacion en dos etapas ===
+Termino correctamente con SIGTERM
+
+Monitoreo completado.
